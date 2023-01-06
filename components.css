@@ -1,5 +1,6 @@
-a:link, a:visited, a:hover, a:active {
+a, a:hover, a:focus, a:active {
     text-decoration: none;
+    color: inherit;
 }
 
 a:hover {
@@ -73,4 +74,13 @@ p {
 
 main a .main-btn {
     width: 200px;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
 }

@@ -50,6 +50,10 @@ p {
     font-size: 20px;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 .main-btn {
     display: flex;
     justify-content: center;
